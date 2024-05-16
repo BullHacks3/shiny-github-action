@@ -9,3 +9,7 @@ def unsafer(pickled):
 urlpatterns = [
     url(r'^(?P<object>.*)$', unsafer)
 ]
+
+urlpatternss = [
+    url(r'^(?P<object>.*)$', unsafer)
+]
